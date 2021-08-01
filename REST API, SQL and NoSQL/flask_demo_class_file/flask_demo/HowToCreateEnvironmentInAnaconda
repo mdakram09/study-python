@@ -1,0 +1,16 @@
+Step 1: Create a new environment using Anaconda prompt
+        conda create -n env_name python==3.6.9   (Mentioning a python version is optional)
+                                                  But always a good practice
+        Check all environments list which we have created so far using anaconda
+                conda env list
+        Activate the newly created environment in Anaconda prompt
+             conda activate env_name
+
+Create requirements file
+    pip freeze > requirements.txt
+
+Install the requirements from requirements.txt file
+    pip install -r path-for-requirements.txt file
+
+REST
+    Representational State Transfer
